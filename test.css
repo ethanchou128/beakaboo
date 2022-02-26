@@ -1,0 +1,116 @@
+body{
+    background-color: #FFF89A;
+}
+
+.navbar {
+    text-align: center;
+    height: 100px;
+    background-color: #086E7D !important;
+}
+
+.navbar-brand{
+    align-items: center;
+}
+
+.panelContainingScores {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+
+.mainScorePanels {
+    border: solid 1px blue;
+    align-items: center;
+    width: 75%;
+}
+
+.score_board{
+    margin: 20px 0px !important;
+}
+
+.score{
+    padding: 30px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: aquamarine;
+    margin: 10px;
+    width: 200px !important;
+    height: 100px;
+}
+
+.gameBoardContainer {
+    background-color: aquamarine !important;
+    margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    padding: 50px 0;
+}
+
+.panelContainingResetStart {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainButtons {
+    align-items: center;
+    width: auto;
+}
+
+th {
+    padding: 5px;
+}
+
+.rowNumbers {
+    width: 75px;
+    height: 75px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+}
+
+.defaultSprite{
+    background-image: url("water.png");
+    background-size: 100% 100%;
+}
+
+.duckSprite{
+    background-image: url("./duck.png");
+    background-size: 100% 100%;
+}
+
+.revealedSprite{
+    background-image: url("./revealedWater.jpeg");
+    background-size: 100% 100%;
+}
+
+.duck1 {
+    position: absolute;
+    left: 0;
+    top:50%;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.duck2 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.main_interface {
+    vertical-align: middle;
+}
